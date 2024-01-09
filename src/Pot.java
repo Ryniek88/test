@@ -1,12 +1,11 @@
-public class Garnek {
+public class Pot {
 
         int high;
         int width;
         String color;
-
-       public Garnek(){
+       public Pot(){
        }
-       public Garnek (int high, int width, String color){
+       public Pot(int high, int width, String color){
             this.high = high;
             this.width = width;
             this.color = color;
