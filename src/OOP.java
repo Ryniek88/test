@@ -1,15 +1,15 @@
 public class OOP {
     public static void main(String[] args) {
+     //   Garnek garnek = new Garnek();
+     //   garnek.high = 3;
+     //   garnek.width = 5;
+     //   garnek.color = "black";
 
-        Garnek garnek = new Garnek(4, 5);
 
-        Garnek garnek1 = new Garnek(6, 4, "black");
-        String wiadomosc = garnek.gotuj();
-        String sol = garnek.gotuj(false);
 
+    Garnek garnek = new Garnek(7, 5, "black");
+        System.out.println(garnek.high);
+        System.out.println(garnek.width);
         System.out.println(garnek.color);
-        System.out.println(garnek1.color);
-        System.out.println(wiadomosc);
-        System.out.println(sol);
     }
 }
