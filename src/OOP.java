@@ -5,7 +5,7 @@ public class OOP {
         System.out.println(pot.width);
         System.out.println(pot.color);
         User user = new User (7,"Adam");
-        if (user.ifcanbuyalcohol()){
+        if (user.ifCanBuyAlcohol()){
             System.out.println("Can buy");
         } else System.out.println("Can't buy");
     }

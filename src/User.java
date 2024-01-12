@@ -7,7 +7,7 @@ public class User {
         this.name = name;
     }
 
-    public boolean ifcanbuyalcohol (){
+    public boolean ifCanBuyAlcohol (){
         if (age>=18){
             return true;
         } else {

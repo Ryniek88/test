@@ -1,8 +1,8 @@
 public class MainCar {
     public static void main(String[] args) {
         Car car = new Car();
-        car.setMake("porsche");
-        car.setModel("Carrerra");
+        car.setMake("Porsche");
+        car.setModel("Carrerraa");
         car.setColor("Red");
         car.setDoors(4);
         car.setConvertible(true);

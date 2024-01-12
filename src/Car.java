@@ -26,16 +26,13 @@ public class Car {
     }
 
     public void setMake(String make) {
-       if (make == null) make = "Unknown";
-       String lowercaseMake = make.toLowerCase();
-        switch (lowercaseMake) {
+       if (make == null)  make = "Unknown";
+           switch(make.toLowerCase()) {
             case "holden", "porsche", "tesla" -> this.make = make;
             default -> {
                 this.make = "Unsupported";
             }
-
-       }
-
+        }
     }
 
     public void setModel(String model) {
@@ -55,7 +52,6 @@ public class Car {
     }
 
     public void describeCar (){
-        System.out.println("Car " + make +" " + model + " " + color + " " + doors + " " + (convertible ? "Convertible" : "Unconvertible"));
-
+        System.out.println(String.format("Car %s %s %s %d %s", make, model, color, doors, (convertible ? "Convertible" : "Unconvertible")));
     }
 }
