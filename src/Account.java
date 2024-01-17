@@ -53,7 +53,7 @@ public class Account {
     public void withdrawing (int withdraw){
         if (balance<withdraw) {
             System.out.println("You have not enough money");
-            System.out.println("you still have " + balance);
+            System.out.println("you still have  " + balance);
         } else {
             balance -= withdraw;
 
